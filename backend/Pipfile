@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+graphene = "*"
+black = "==18.9b0"
+graphene-django = "*"
+factory-boy = "*"
+django-cors-headers = "*"
+django-filter = "*"
+
+[requires]
+python_version = "3.7"

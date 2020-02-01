@@ -1,0 +1,4 @@
+[flake8]
+ignore = E501, F405, W503
+max-line-length = 88
+exclude = backend/settings
